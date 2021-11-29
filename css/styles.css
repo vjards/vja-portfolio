@@ -1,0 +1,134 @@
+/* ***********************************************
+COLOR PALETTE
+https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
+#b5c2b7 --ash grey
+#8c93a8 --cool grey
+#62466b --english violet
+#45364b --dark english violet
+#2d2327 --black coffee
+*******************************************************/
+
+/*************************************
+             GLOBAL STYLES
+***************************************/
+html{
+    box-sizing: border-box;
+}
+
+*, *:before *:after{
+    box-sizing: inherit;
+}
+
+body {
+    background-color:whitesmoke;
+    margin:0;
+    padding:0;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size:25px;
+    line-height:1.5;
+}
+
+a {
+    color:whitesmoke;
+    display:inline-block;
+}
+
+h1{
+    font-family: 'Kalam', cursive;
+    margin:0;
+}
+
+h2{
+    margin:0;
+    font-family: 'Kalam', cursive;
+}
+
+h3{
+margin-bottom:0;
+}
+.item-details h3 + p{
+    font-style: italic;
+}  /*Adjacent selector for the first paragraphs under the h3 headlines*/
+
+.item-details h3 ~ p{
+    margin:0;
+} /*removes padding from the paragraphs*/
+
+img {width:300px;}
+
+.content-wrapper{
+    width: 800px;
+    margin: 0 auto;
+    padding:60px 0;
+}
+
+.divider > section{
+    border-bottom:2px solid black;
+    padding: 25px 0;
+}
+
+.divider > section:last-of-type{
+    border-bottom:none;
+} /*removes the bottom border from the last part of each section*/
+
+
+/***************************
+          PROFILE
+****************************/
+header{    background-color:#2d2327;    color:white;    text-align: center;}
+
+/********************************
+           PROJECTS
+*********************************/
+.projects{background-color: whitesmoke;}
+
+.projects a{
+    background-color:#2d2327;
+    text-decoration:none;
+    padding:13px;
+    border-radius: 3px;
+}
+
+/*.website-project{overflow:hidden;}*/
+
+.container img {
+    float:left;
+    margin-right:40px;
+}
+
+
+
+/**********************
+    WORK EXPERIENCE
+**********************/
+.work-experience{
+    background-color: #2d2327;
+    color:white;
+}
+
+/***************************
+       EDUCATION
+****************************/
+
+/*****************************
+       CONTACT INFO
+******************************/
+footer{
+    background-color:#2d2327;
+    color:white;
+    text-align:center;
+}
+
+.contact-list{
+    list-style-type: none;
+    padding:0;
+    display:flex;
+    justify-content: center;
+}
+
+.contact-list a{
+     padding:15px;
+     display: inline-block; /*display links vertically and horizantaly*/
+}
+
+
