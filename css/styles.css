@@ -57,7 +57,8 @@ margin-bottom:0;
 img {width:300px;}
 
 .content-wrapper{
-    width: 800px;
+    max-width: 800px;
+    width:85%;
     margin: 0 auto;
     padding:60px 0;
 }
@@ -75,7 +76,7 @@ img {width:300px;}
 /***************************
           PROFILE
 ****************************/
-header{    background-color:#2d2327;    color:white;    text-align: center;}
+header{    background-color:#2d2327;    color:white;    }
 
 /********************************
            PROJECTS
@@ -91,10 +92,6 @@ header{    background-color:#2d2327;    color:white;    text-align: center;}
 
 /*.website-project{overflow:hidden;}*/
 
-.container img {
-    float:left;
-    margin-right:40px;
-}
 
 
 
@@ -116,14 +113,13 @@ header{    background-color:#2d2327;    color:white;    text-align: center;}
 footer{
     background-color:#2d2327;
     color:white;
-    text-align:center;
+    
 }
 
 .contact-list{
     list-style-type: none;
     padding:0;
-    display:flex;
-    justify-content: center;
+    
 }
 
 .contact-list a{
@@ -132,3 +128,31 @@ footer{
 }
 
 
+/*****************************
+       RESPONSIVE STYLES
+******************************/
+@media screen and (min-width:750px){
+    header, footer{
+        text-align:center;
+    }
+    
+    /*images will float left and two columns will be formed when screen is 750px or greater*/
+    .container img {
+        float:left;
+        margin-right:40px;
+    }
+
+/*list items will stack on top of each other when the screen is smaller than 750px
+  but displays at the center of the site on screens 750px or larger*/
+    .contact-list{
+        display:flex;
+        justify-content: center;
+    } 
+    
+}
+
+@media screen and (max-width:749px){
+    h1 {
+        font-size:50px;
+    }
+}
