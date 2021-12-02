@@ -90,8 +90,6 @@ header{    background-color:#2d2327;    color:white;    }
     border-radius: 3px;
 }
 
-/*.website-project{overflow:hidden;}*/
-
 
 
 
@@ -132,15 +130,15 @@ footer{
        RESPONSIVE STYLES
 ******************************/
 @media screen and (min-width:750px){
-    header, footer{
-        text-align:center;
-    }
+    header, footer{text-align:center;}
+
+    .website-project{overflow:hidden;}
     
     /*images will float left and two columns will be formed when screen is 750px or greater*/
     .container img {
         float:left;
         margin-right:40px;
-    }
+        }
 
 /*list items will stack on top of each other when the screen is smaller than 750px
   but displays at the center of the site on screens 750px or larger*/
@@ -150,6 +148,8 @@ footer{
     } 
     
 }
+
+/* max width 749px*/
 
 @media screen and (max-width:749px){
     h1 {
