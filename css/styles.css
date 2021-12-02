@@ -68,9 +68,8 @@ img {width:300px;}
     padding: 25px 0;
 }
 
-.divider > section:last-of-type{
-    border-bottom:none;
-} /*removes the bottom border from the last part of each section*/
+.divider > section:last-of-type{    border-bottom:none;} 
+/*removes the bottom border from the last part of each section*/
 
 
 /***************************
@@ -89,9 +88,6 @@ header{    background-color:#2d2327;    color:white;    }
     padding:13px;
     border-radius: 3px;
 }
-
-
-
 
 /**********************
     WORK EXPERIENCE
@@ -135,7 +131,7 @@ footer{
     .website-project{overflow:hidden;}
     
     /*images will float left and two columns will be formed when screen is 750px or greater*/
-    .container img {
+    .website-project img {
         float:left;
         margin-right:40px;
         }
