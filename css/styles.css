@@ -145,7 +145,7 @@ footer{
     
 }
 
-/* max width 749px*/
+/* styles for screens with max width 749px*/
 
 @media screen and (max-width:749px){
     h1 {
