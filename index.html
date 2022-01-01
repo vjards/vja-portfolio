@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Victoria Ards-Web Developer</title>
     <link rel="stylesheet" href= "css/styles.css"/>
+    <!--FONT AWESOME ICONS-->
+    <script src="https://kit.fontawesome.com/7f8ebc4f99.js" crossorigin="anonymous"></script>
     <!--GROTESQUE FONT-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,16 +18,26 @@
   </head>
   <body>
     <main>
-      <!-- ***********************  ABOUT / PROFILE  *********************** -->
+      <!-- ***********************  PORTFOLIO SUMMARY  *********************** -->
       <header>
       <div class="content-wrapper">
-        <h1>Victoria Ards</h1>
-        <h2>Front-End Developer</h2>
-        <p>Former educator turned front-end developer, 
-          specializing in building and maintaining functional and 
-          user-friendly websites and applications.</p>
-      </div>
-        
+        <nav>
+          <ul>
+            <li>Projects</li>
+            <li>Skills</li>
+            <li>About</li>
+            <li>Contact Me</li>
+          </ul>
+        </nav> 
+                   <!--NAME--->
+        <h1> Hey ya'll, I'm Victoria Ards!</h1>
+                   <!--HEADLINE-->
+        <h2>I build and maintain high-converting
+          landing pages to help online businesses increase 
+          lead generation and sales. </h2> 
+           
+      </div>    
+       
       </header>
 
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
@@ -37,11 +49,12 @@
            <section class="website-project">
             <h3>Go Picasso</h3>
             <img src="images/go-picasso.PNG" alt="Go Picasso Painting App">
-            <p>Painting app that allows the user to make 
-              draw pictures on the canvas using colored strokes 
-              and shapes. </p>
+            <p> 
+              Drawing app to draw & color pictures. Go Picasso includes 
+              a color picker to customize colors & a stroke to adjust the size
+              of the paint strokes.</p>
             <!--<h3>Programming Language Used: JavaScript</h3>  -->       
-            <a href="https://vjards.github.io/go-picasso-app/" target="_blank">View project </a>
+            <a href="https://vjards.github.io/go-picasso-project/" target="_blank">View project </a>
            </section>
            <!--END OF PROJECT BLOCK-->
 
@@ -49,28 +62,68 @@
            <section class="website-project">
            <h3>Guess the Word</h3>
             <img src="images/guess-the-word.PNG" alt="Guess the Word computer game">
-            <p>Vocabulary game that allows a player 8 
-              chances to guess letters randomly to figure 
-              out the mystery word.</p>          
+            <p> A vocabulary game for players to choose letters to guess a word. 
+              If the player solves the puzzle before they run out of guesses, they win! </p>          
               <!--<h3>Programming Langauge Used: JavaScript</h3> -->           
             <a href="https://vjards.github.io/guess-the-word/" target="_blank">View project </a>
           </section>
           <!-- End of Project block. -->
   
-          <!--REPO GALLERY PROJECT-->
+          <!--STICKY NOTE PROJECT-->
             <section class ="website-project">
+            <h3>Super Sticky Notes</h3>
+            <img src="images/super-sticky-notes.PNG" alt="sticky notes">
+            <p>  A note-taking app that allows the user to 
+              write, edit, delete, and search for notes. </p>
+              <!--<h3>Programming Language Used:React</h3> -->           
+            <a href="https://188x1.csb.app/" target="_blank">View project</a>
+           </section><!--End of Project Block-->
+
+           <section class ="website-project">
             <h3>GitHub Repo Gallery</h3>
             <img src="images/github-repo-gallery.PNG" alt="github repo gallery">
-            <p>My repo gallery that showcases my web 
-              development projects that a site visitor can 
-              click on to learn more information about the 
-              repository.</p>
+            <p>A website that displays a list of repos from my GitHub portfolio using GitHub’s API.
+              Site visitors can click on a repo to learn more information about
+              the project and access the repository link.</p>
               <!--<h3>Programming Language Used:JavaScript</h3> -->           
             <a href="https://vjards.github.io/github-repo-gallery/" target="_blank">View project</a>
-           </section>
+           </section><!--End of Project Block-->
+
            </div>
            </section>
-        
+                                    <!--SKILLS-->
+           <section class="skills">
+            <div class="content-wrapper">
+              <h1>Skills</h1>
+              <h2>Developer Skills</h2>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>REACT</li>
+                <li>RESPONSIVE WEB DEVELOPMENT</li>
+                <li>GIT/GITHUB</li>
+              </ul>
+            </div>
+           </section>                         
+                                <!--ABOUT VICTORIA-->
+           <section class="about-victoria">
+            <div class="content-wrapper">
+              <img src="images/portfolio-headshot.jpg" alt="github repo gallery">
+              <h1>Hi! I'm Victoria Ards.</h1>
+              <h2>I'm a front-end web developer that specializes
+                in constructing eye-catching and responsive websites.</h2>
+                <p>
+                  I enjoy being a web developer for online businesses because
+                   I research and execute technical and marketing strategies 
+                   to create high-converting mobile-friendly websites. 
+                   A fun fact to know about me is that I’m obsessed with dark chocolate. 
+                   The darker the chocolate, the better and healthier. 
+                   My favorite dark chocolate is Ghiradelli 60% cacao dark chocolate 
+                   and Ghiradelli Dark Chocolate with caramel and sea salt.             
+                  </p>
+            </div>
+           </section>
         
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
      <!-- 
@@ -148,12 +201,13 @@
       <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
       <footer>
         <div class="content-wrapper">
-          <h2>Connect with Me!</h2>
+          <h2>Let's Connect!</h2>
           <ul class="contact-list">
-          <li><a href="mailto:victoria@victoriaardscreative.com">victoria@victoriaardscreative.com</a></li>
-          <li><a href="https://github.com/vjards" target="_blank">GitHub</a></li>
-          <li><a href="https://www.linkedin.com/in/vjards/" target="_blank">LinkedIn</a></li>
+          <li><a href="mailto:victoriaardscreative@gmail.com"><i class="fas fa-envelope"></i></a></li>
+          <li><a href="https://github.com/vjards" target="_blank"><i class="fab fa-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/vjards/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
          </ul>
+         <p>Copyright &copy; 2022 | Victoria Ards</p>
         </div>        
       </footer>
     </main>
