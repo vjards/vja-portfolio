@@ -20,31 +20,36 @@ html{
 }
 
 body {
-    background-color:whitesmoke;
+    background-color:seashell;
     margin:0;
     padding:0;
-    font-family: 'Darker Grotesque', sans-serif;
+    
     font-size:25px;
     line-height:1.5;
 }
 
 a {
-    color:whitesmoke;
+    color:white;
     display:inline-block;
 }
 
 h1{
-    font-family: 'Kalam', cursive;
+    font-family: 'Alike', serif;
     margin:0;
 }
 
 h2{
     margin:0;
-    font-family: 'Kalam', cursive;
+    font-family: 'Alike', serif;
 }
 
 h3{
-margin-bottom:0;
+ margin-bottom:0;
+ font-family: 'Alike', serif;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
 }
 .item-details h3 + p{
     font-style: italic;
@@ -68,8 +73,19 @@ img {width:300px;}
     padding: 25px 0;
 }
 
-.divider > section:last-of-type{    border-bottom:none;} 
+.divider > section:last-of-type{border-bottom:none;} 
 /*removes the bottom border from the last part of each section*/
+
+/*****************************
+         NAVIGATION
+******************************/
+
+header nav{
+    float:right;
+    margin-top:20px;
+}
+
+header li{display:inline;}
 
 
 /***************************
@@ -80,27 +96,38 @@ header{    background-color:#2d2327;    color:white;    }
 /********************************
            PROJECTS
 *********************************/
-.projects{background-color: whitesmoke;}
+.projects{background-color: seashell;}
 
 .projects a{
     background-color:#2d2327;
     text-decoration:none;
     padding:13px;
     border-radius: 3px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /**********************
     WORK EXPERIENCE
-**********************/
+*********************
 .work-experience{
+    background-color: #2d2327;
+    color:white;
+}*/
+
+/***************************
+         SKILLS
+****************************/
+.skills{
     background-color: #2d2327;
     color:white;
 }
 
 /***************************
-       EDUCATION
+         ABOUT
 ****************************/
-
+.about-victoria{
+    background-color: seashell;
+}
 /*****************************
        CONTACT INFO
 ******************************/
