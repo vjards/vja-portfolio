@@ -11,19 +11,14 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 /*************************************
              GLOBAL STYLES
 ***************************************/
-html{
-    box-sizing: border-box;
-}
+html{box-sizing: border-box;}
 
-*, *:before *:after{
-    box-sizing: inherit;
-}
+*, *:before *:after{box-sizing: inherit;}
 
 body {
     background-color:seashell;
     margin:0;
     padding:0;
-    
     font-size:25px;
     line-height:1.5;
 }
@@ -48,9 +43,8 @@ h3{
  font-family: 'Alike', serif;
 }
 
-p{
-    font-family: 'Open Sans', sans-serif;
-}
+p{font-family: 'Open Sans', sans-serif;}
+
 .item-details h3 + p{
     font-style: italic;
 }  /*Adjacent selector for the first paragraphs under the h3 headlines*/
@@ -68,14 +62,6 @@ img {width:300px;}
     padding:60px 0;
 }
 
-.divider > section{
-    border-bottom:2px solid black;
-    padding: 25px 0;
-}
-
-.divider > section:last-of-type{border-bottom:none;} 
-/*removes the bottom border from the last part of each section*/
-
 /*****************************
          NAVIGATION
 ******************************/
@@ -85,13 +71,15 @@ header nav{
     margin-top:20px;
 }
 
-header li{display:inline;}
-
+header li{
+    display:inline;
+    font-family: 'Open Sans', sans-serif;
+}
 
 /***************************
           PROFILE
 ****************************/
-header{    background-color:#2d2327;    color:white;    }
+header{background-color:#2d2327; color:white;}
 
 /********************************
            PROJECTS
@@ -105,6 +93,19 @@ header{    background-color:#2d2327;    color:white;    }
     border-radius: 3px;
     font-family: 'Open Sans', sans-serif;
 }
+
+.projects h2{text-align:center;}
+
+        /*BORDER LINES*/
+.divider > section{
+    border-bottom:2px solid black;
+    padding: 25px 0;
+}
+
+.divider > section:last-of-type{border-bottom:none;} 
+/*removes the bottom border from the last part of each section*/
+
+
 
 /**********************
     WORK EXPERIENCE
@@ -120,7 +121,20 @@ header{    background-color:#2d2327;    color:white;    }
 .skills{
     background-color: #2d2327;
     color:white;
+    padding-bottom:50px;
 }
+
+.skills h2{text-align:center;}
+
+.skills h3{text-align:center;}
+
+.skills li{
+    display:inline;
+    font-family: 'Open Sans', sans-serif;
+    float:left;
+    margin-left:80px;
+}
+
 
 /***************************
          ABOUT
@@ -128,6 +142,14 @@ header{    background-color:#2d2327;    color:white;    }
 .about-victoria{
     background-color: seashell;
 }
+
+.about-victoria img {
+        float:left;
+        margin-right:50px;
+}
+
+
+
 /*****************************
        CONTACT INFO
 ******************************/
@@ -145,7 +167,8 @@ footer{
 
 .contact-list a{
      padding:15px;
-     display: inline-block; /*display links vertically and horizantaly*/
+     display: inline-block; 
+    /*display links vertically and horizontally*/
 }
 
 
