@@ -60,6 +60,7 @@ p{font-family: 'Open Sans', sans-serif;}
 header nav{
     float:right;
     margin-top:10px;
+    cursor:pointer;
 }
 
 header li{
@@ -68,21 +69,32 @@ header li{
     margin-right:20px;
 }
 
+li a{
+    text-decoration:none;
+}
+
 /***************************
           PROFILE
 ****************************/
 header{background-color:#2d2327; color:white;
         padding:20px;
-
 }
 
+header h1{
+    font-size:60px;
+}
+
+header h2{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
 
 /********************************
            PROJECTS
 *********************************/
-.projects{background-color: seashell;}
+#projects{background-color: seashell;}
 
-.projects a{
+#projects a{
     background-color:#2d2327;
     text-decoration:none;
     padding:13px;
@@ -91,7 +103,7 @@ header{background-color:#2d2327; color:white;
     float:right;
 }
 
-.projects h2{text-align:center;}
+#projects h2{text-align:center;}
 
         /*BORDER LINES*/
 .divider > section{
@@ -114,17 +126,17 @@ header{background-color:#2d2327; color:white;
 /***************************
          SKILLS
 ****************************/
-.skills{
+#skills{
     background-color: #2d2327;
     color:white;
     padding-bottom:50px;
 }
 
-.skills h2{text-align:center;}
+#skills h2{text-align:center;}
 
-.skills h3{text-align:center;}
+#skills h3{text-align:center;}
 
-.skills li{
+#skills li{
     display:inline;
     font-family: 'Open Sans', sans-serif;
     float:left;
@@ -135,11 +147,11 @@ header{background-color:#2d2327; color:white;
 /***************************
          ABOUT
 ****************************/
-.about-victoria{
+#about-victoria{
     background-color: seashell;
 }
 
-.about-victoria img {
+#about-victoria img {
         float:left;
         margin-right:50px;
         width:400px;
@@ -154,13 +166,13 @@ footer{
     
 }
 
-.contact-list{
+#contact-list{
     list-style-type: none;
     padding:0;
     
 }
 
-.contact-list a{
+#contact-list a{
      padding:15px;
      display: inline-block; 
     /*display links vertically and horizontally*/
@@ -183,7 +195,7 @@ footer{
 
 /*list items will stack on top of each other when the screen is smaller than 750px
   but displays at the center of the site on screens 750px or larger*/
-    .contact-list{
+    #contact-list{
         display:flex;
         justify-content: center;
     } 
