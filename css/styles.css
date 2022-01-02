@@ -1,13 +1,3 @@
-/* ***********************************************
-COLOR PALETTE
-https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
-#b5c2b7 --ash grey
-#8c93a8 --cool grey
-#62466b --english violet
-#45364b --dark english violet
-#2d2327 --black coffee
-*******************************************************/
-
 /*************************************
              GLOBAL STYLES
 ***************************************/
@@ -19,7 +9,7 @@ body {
     background-color:seashell;
     margin:0;
     padding:0;
-    font-size:25px;
+    font-size:20px;
     line-height:1.5;
 }
 
@@ -53,7 +43,7 @@ p{font-family: 'Open Sans', sans-serif;}
     margin:0;
 } /*removes padding from the paragraphs*/
 
-img {width:300px;}
+.website-project img {width:400px;}
 
 .content-wrapper{
     max-width: 800px;
@@ -61,6 +51,7 @@ img {width:300px;}
     margin: 0 auto;
     padding:60px 0;
 }
+
 
 /*****************************
          NAVIGATION
@@ -92,6 +83,7 @@ header{background-color:#2d2327; color:white;}
     padding:13px;
     border-radius: 3px;
     font-family: 'Open Sans', sans-serif;
+    float:right;
 }
 
 .projects h2{text-align:center;}
@@ -104,7 +96,6 @@ header{background-color:#2d2327; color:white;}
 
 .divider > section:last-of-type{border-bottom:none;} 
 /*removes the bottom border from the last part of each section*/
-
 
 
 /**********************
@@ -146,9 +137,8 @@ header{background-color:#2d2327; color:white;}
 .about-victoria img {
         float:left;
         margin-right:50px;
+        width:400px;
 }
-
-
 
 /*****************************
        CONTACT INFO
