@@ -59,18 +59,23 @@ p{font-family: 'Open Sans', sans-serif;}
 
 header nav{
     float:right;
-    margin-top:20px;
+    margin-top:10px;
 }
 
 header li{
     display:inline;
     font-family: 'Open Sans', sans-serif;
+    margin-right:20px;
 }
 
 /***************************
           PROFILE
 ****************************/
-header{background-color:#2d2327; color:white;}
+header{background-color:#2d2327; color:white;
+        padding:20px;
+
+}
+
 
 /********************************
            PROJECTS
