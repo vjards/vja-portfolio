@@ -163,21 +163,17 @@ header h2{
 footer{
     background-color:#2d2327;
     color:white;
-    
 }
 
 #contact-list{
     list-style-type: none;
     padding:0;
-    
 }
 
 #contact-list a{
      padding:15px;
-     display: inline-block; 
-    /*display links vertically and horizontally*/
+     display:inline-block;   /*display links vertically and horizontally*/
 }
-
 
 /*****************************
        RESPONSIVE STYLES
