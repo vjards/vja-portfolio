@@ -67,6 +67,7 @@ header li{
     display:inline;
     font-family: 'Open Sans', sans-serif;
     margin-right:20px;
+    font-weight: bold;
 }
 
 li a{
@@ -114,15 +115,6 @@ header h2{
 .divider > section:last-of-type{border-bottom:none;} 
 /*removes the bottom border from the last part of each section*/
 
-
-/**********************
-    WORK EXPERIENCE
-*********************
-.work-experience{
-    background-color: #2d2327;
-    color:white;
-}*/
-
 /***************************
          SKILLS
 ****************************/
@@ -138,8 +130,6 @@ header h2{
 }
 
 #skills h2{text-align:center;}
-
-#skills h3{text-align:center;}
 
 #skills li{
     display:inline;
