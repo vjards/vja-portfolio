@@ -103,7 +103,7 @@ header h2{
     float:right;
 }
 
-#projects h2{text-align:center;}
+#projects h1{font-size:60px; text-align:center;}
 
         /*BORDER LINES*/
 .divider > section{
@@ -130,6 +130,11 @@ header h2{
     background-color: #2d2327;
     color:white;
     padding-bottom:50px;
+}
+
+#skills h1{
+    font-size:60px;
+    text-align: center;
 }
 
 #skills h2{text-align:center;}
@@ -171,8 +176,25 @@ footer{
 }
 
 #contact-list a{
-     padding:15px;
+     padding:5px;
      display:inline-block;   /*display links vertically and horizontally*/
+     font-family:'Open Sans', sans-serif;
+}
+
+.fab{
+    padding: 12px;
+    font-size: 30px;
+    width:30px;
+    border-radius:60%;
+    float:left;
+}
+
+.fas{
+    padding: 12px;
+    font-size: 30px;
+    width:30px;
+    border-radius:60%;
+    float:left;
 }
 
 /*****************************
