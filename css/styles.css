@@ -121,7 +121,7 @@ header h2{
 #skills{
     background-color: #2d2327;
     color:white;
-    padding-bottom:50px;
+    padding-bottom:20px;
 }
 
 #skills h1{
@@ -150,6 +150,18 @@ header h2{
         float:left;
         margin-right:50px;
         width:400px;
+}
+
+#about-victoria h1{
+    text-align: center;
+}
+
+#about-victoria h2{
+    text-align:left;
+}
+
+#about-victoria p{
+    display:inline-block;
 }
 
 /*****************************
