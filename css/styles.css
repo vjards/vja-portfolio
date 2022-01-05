@@ -93,8 +93,15 @@ header h2{
 /********************************
            PROJECTS
 *********************************/
+     /*PARENT CLASS*/
+
 #projects{background-color: seashell;}
 
+     /*CHILDREN CLASSES*/
+
+/********************
+    BUTTON STYLES
+********************/
 #projects a{
     background-color:#2d2327;
     text-decoration:none;
@@ -109,7 +116,9 @@ header h2{
 
 #projects h3 {margin-bottom: 10px;}
 
-        /*BORDER LINES*/
+        /*******************
+           BORDER LINES
+        ********************/
 .divider > section{
     border-bottom:2px solid black;
     padding: 25px 0;
@@ -212,9 +221,13 @@ footer{
 /*****************************
        RESPONSIVE STYLES
 ******************************/
+
+/*styles for screens 750px or greater*/
 @media screen and (min-width:750px){
+    /*HEADER AND FOOTER*/
     header, footer{text-align:center;}
 
+    /*PARENT CLASS*/
     .website-project{overflow:hidden;}
     
     /*images will float left and two columns will be formed when screen is 750px or greater*/
@@ -232,10 +245,31 @@ footer{
     
 }
 
-/* styles for screens with max width 749px*/
+/* styles for screens with a maximum of 749px or lesser*/
 
 @media screen and (max-width:749px){
-    h1 {
+    header{
+        width:500px;
+    }
+
+    header h1 {
         font-size:50px;
     }
+    
+    header li{
+        display:flex;
+        flex-direction: column;
+    }
+
+   #projects{
+       margin-left:50px;
+   }  
+
+   #projects a{
+    padding:5px;
+   }
+
+   .divider > section{
+       padding:100px 0;
+   }
 }
