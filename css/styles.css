@@ -248,28 +248,48 @@ footer{
 /* styles for screens with a maximum of 749px or lesser*/
 
 @media screen and (max-width:749px){
-    header{
-        width:500px;
+
+    .content-wrapper{
+        width:250px;
+        padding: 0 0 0 0px;
+        margin-right:200px;
+    }
+
+    header{width:500px; padding-bottom:50px;}
+
+    header li{
+        font-size:15px;
+        margin-left:124px;
+        margin-right:100px;
+    }
+
+    header h2{
+        font-size:15px;
+        margin-right: 100px;
     }
 
     header h1 {
-        font-size:50px;
+        font-size:35px;
+        margin-right: 100px;
     }
     
-    header li{
-        display:flex;
-        flex-direction: column;
-    }
-
    #projects{
        margin-left:50px;
    }  
 
    #projects a{
-    padding:5px;
+    padding:5px 0;
    }
 
    .divider > section{
        padding:100px 0;
+   }
+
+   .website-project{
+
+   }
+
+   .website-project img{
+
    }
 }
