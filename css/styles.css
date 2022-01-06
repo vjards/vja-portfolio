@@ -306,7 +306,7 @@ footer{
 
    #skills{
        width:500px;
-       height:600px;
+       height:700px;
        padding-top: 20px;
    }
 
@@ -321,6 +321,21 @@ footer{
    }
 
    #skills li{
-       
+       margin-bottom:10px;
    }
+
+   /*ABOUT*/
+
+   #about-victoria .content-wrapper{
+    width:300px;
+    margin-left:100px;
+    display:flex;
+    flex-direction: column;
+   }
+
+   /*CONTACT*/
+   #contact{
+
+   }
+
 }
