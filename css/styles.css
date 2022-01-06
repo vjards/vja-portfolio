@@ -250,11 +250,12 @@ footer{
 @media screen and (max-width:749px){
 
     .content-wrapper{
-        width:250px;
+        width:275px;
         padding: 0 0 0 0px;
         margin-right:200px;
+       
     }
-
+    /*HEADER*/
     header{width:500px; padding-bottom:50px;}
 
     header li{
@@ -265,14 +266,15 @@ footer{
 
     header h2{
         font-size:15px;
-        margin-right: 100px;
+        margin-right: 0px;
     }
 
     header h1 {
         font-size:35px;
-        margin-right: 100px;
+        margin-right: 0px;
     }
     
+    /*PROJECT MOBILE STYLES*/
    #projects{
        margin-left:50px;
    }  
@@ -285,11 +287,40 @@ footer{
        padding:100px 0;
    }
 
+   #projects h1{
+       font-size:30px;
+   }
+
    .website-project{
 
    }
 
    .website-project img{
 
+   }
+
+   /*SKILLS*/
+   #skills h1{
+       font-size:40px;
+   }
+
+   #skills{
+       width:500px;
+       height:600px;
+       padding-top: 20px;
+   }
+
+   #skills .content-wrapper{
+       width:400px;
+       display:flex;
+       flex-direction: column;
+   }
+
+   #skills h2 li{
+       margin-right:500px;
+   }
+
+   #skills li{
+       
    }
 }
