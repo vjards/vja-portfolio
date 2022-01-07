@@ -218,16 +218,32 @@ footer{
     float:left;
 }
 
-/*****************************
-       RESPONSIVE STYLES
-******************************/
+/***************************************************
+         TABLET STYLES
+/****************************************************
+styles for screens 750px or greater
+********************************************************/
 
-/*styles for screens 750px or greater*/
 @media screen and (min-width:750px){
-    /*HEADER AND FOOTER*/
+    /*GLOBAL STYLES*/
     header, footer{text-align:center;}
 
-    /*PARENT CLASS*/
+    /***********************
+            HEADER
+    **********************/
+    header{
+        
+        
+    }
+
+    header .content-wrapper{
+              
+       
+    }
+
+    /*************
+        PROJECT
+    ****************/
     .website-project{overflow:hidden;}
     
     /*images will float left and two columns will be formed when screen is 750px or greater*/
@@ -236,6 +252,10 @@ footer{
         margin-right:40px;
         }
 
+
+      /***********************
+              CONTACT
+      ************************/
 /*list items will stack on top of each other when the screen is smaller than 750px
   but displays at the center of the site on screens 750px or larger*/
     #contact-list{
@@ -245,33 +265,41 @@ footer{
     
 }
 
-/* styles for screens with a maximum of 749px or lesser*/
+/*******************************************************
+                  MOBILE STYLES
+********************************************************
+styles for screens with a maximum of 749px or lesser
+********************************************************/
 
-@media screen and (max-width:749px){
+@media screen and (max-width:768px){
 
     .content-wrapper{
         width:275px;
         padding: 0 0 0 0px;
-        margin-right:200px;
-       
+        margin-right:px;
+
     }
     /*HEADER*/
-    header{width:500px; padding-bottom:50px;}
+    header{width:600px; height:400px; padding-bottom:20px;}
 
+    header .content-wrapper{
+        margin-right:300px;
+        margin-right:300px;
+    }
     header li{
         font-size:15px;
-        margin-left:124px;
-        margin-right:100px;
+        margin-right:500px;
     }
 
     header h2{
         font-size:15px;
-        margin-right: 0px;
+        margin-left:50px;
     }
 
     header h1 {
         font-size:35px;
-        margin-right: 0px;
+        margin-left: 50px;
+        
     }
     
     /*PROJECT MOBILE STYLES*/
@@ -305,7 +333,7 @@ footer{
    }
 
    #skills{
-       width:500px;
+       width:670px;
        height:700px;
        padding-top: 20px;
    }
@@ -340,7 +368,7 @@ footer{
 
    /*CONTACT*/
    footer {
-    width:500px;
+    width:670px;
    }
 
    footer .content-wrapper{
