@@ -350,12 +350,10 @@ footer{
     margin-left:100px;
    }
 
-   .fab{
-    padding: 12px;
-    font-size: 30px;
-    width:30px;
-    border-radius:60%;
-    float:right;
+   footer li{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
    }
 
    footer h3{
