@@ -83,6 +83,7 @@ header{background-color:#2d2327; color:white;
 
 header h1{
     font-size:60px;
+    text-align: center;
 }
 
 header h2{
@@ -221,12 +222,27 @@ footer{
 /***************************************************
          TABLET STYLES
 /****************************************************
+styles for screens up to 1280px
+********************************************************/
+
+@media screen  and (max-width:1280px){
+    header  .content-wrapper{
+        width: ;
+    }
+}
+/***************************************************
+         TABLET STYLES
+/****************************************************
 styles for screens 750px or greater
 ********************************************************/
 
 @media screen and (min-width:750px){
     /*GLOBAL STYLES*/
-    header, footer{text-align:center;}
+    footer{text-align:center;}
+
+    header .content-wrapper{
+        
+    }
 
      /*************
         PROJECT
@@ -255,17 +271,17 @@ styles for screens 750px or greater
 /*******************************************************
                   MOBILE STYLES
 ********************************************************
-styles for screens with a maximum of 749px or lesser
+styles for screens with a maximum of 768px or lesser
 ********************************************************/
 
 @media screen and (max-width:768px){
 
     .content-wrapper{
-        width:275px;
+        width:300px;
         padding: 0 0 0 0px;
-        margin-right:px;
+        margin-right:170px ;
+        }
 
-    }
     /*HEADER*/
     header{width:600px; height:400px; padding-bottom:20px;}
 
@@ -290,9 +306,6 @@ styles for screens with a maximum of 749px or lesser
     }
     
     /*PROJECT*/
-    #projects {
-        
-    }
 
    #projects .content-wrapper{
        margin-left:50px;
@@ -311,10 +324,6 @@ styles for screens with a maximum of 749px or lesser
    #projects h1{
        font-size:40px;
    }
-
-   #projects h2{
-    
-}
 
    .website-project img{
     width:300px;
