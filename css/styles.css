@@ -105,7 +105,7 @@ header h2{
 #projects a{
     background-color:#2d2327;
     text-decoration:none;
-    padding:13px;
+    padding:20px;
     border-radius: 3px;
     font-family: 'Open Sans', sans-serif;
     float:right;
@@ -228,20 +228,7 @@ styles for screens 750px or greater
     /*GLOBAL STYLES*/
     header, footer{text-align:center;}
 
-    /***********************
-            HEADER
-    **********************/
-    header{
-        
-        
-    }
-
-    header .content-wrapper{
-              
-       
-    }
-
-    /*************
+     /*************
         PROJECT
     ****************/
     .website-project{overflow:hidden;}
@@ -302,26 +289,32 @@ styles for screens with a maximum of 749px or lesser
         
     }
     
-    /*PROJECT MOBILE STYLES*/
-   #projects{
+    /*PROJECT*/
+    #projects {
+        
+    }
+
+   #projects .content-wrapper{
        margin-left:50px;
+       margin-top: 40px;
    }  
 
    #projects a{
-    padding:5px 0;
+    padding:10px;
    }
 
    .divider > section{
-       padding:100px 0;
+       padding-bottom: 60px;
+
    }
 
    #projects h1{
        font-size:40px;
    }
 
-   .website-project{
-
-   }
+   #projects h2{
+    
+}
 
    .website-project img{
     width:300px;
@@ -372,6 +365,7 @@ styles for screens with a maximum of 749px or lesser
    #about-victoria img{
        padding-top: 20px;
        margin-left:100px;
+       margin-bottom: 20px;
        width:100px;
    }
 
@@ -394,7 +388,7 @@ styles for screens with a maximum of 749px or lesser
     display:flex;
     flex-direction:column;
     width:275px;
-    margin-left:100px;
+    margin-left:60px;
    }
 
    footer li{
@@ -403,8 +397,17 @@ styles for screens with a maximum of 749px or lesser
     justify-content: center;
    }
 
+   footer h1{
+    font-size: 25px;
+    text-align: center;
+   }
+
    footer h3{
-       text-align:center;
+    text-align:center;
+   }
+
+   footer a{
+       font-size: 16px;
    }
 
    footer p{
