@@ -331,17 +331,21 @@ styles for screens with a maximum of 749px or lesser
    #skills h1{
        font-size:40px;
    }
-
+   
+   /*background*/ 
    #skills{
        width:670px;
        height:700px;
        padding-top: 20px;
    }
 
+   /*skill section content layout*/
    #skills .content-wrapper{
        width:400px;
        display:flex;
        flex-direction: column;
+       margin-right: 600px;
+       padding-right:10px;
    }
 
    #skills h2 li{
@@ -350,6 +354,7 @@ styles for screens with a maximum of 749px or lesser
 
    #skills li{
        margin-bottom:10px;
+       
    }
 
    /*ABOUT*/
