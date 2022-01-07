@@ -333,9 +333,36 @@ footer{
     flex-direction: column;
    }
 
-   /*CONTACT*/
-   #contact{
-
+   #about-victoria img{
+       padding-top: 20px;
+       width:275px;
    }
 
+   /*CONTACT*/
+   footer {
+    width:500px;
+   }
+
+   footer .content-wrapper{
+    display:flex;
+    flex-direction:column;
+    width:275px;
+    margin-left:100px;
+   }
+
+   .fab{
+    padding: 12px;
+    font-size: 30px;
+    width:30px;
+    border-radius:60%;
+    float:right;
+   }
+
+   footer h3{
+       text-align:center;
+   }
+
+   footer p{
+       text-align:center;
+   }
 }
