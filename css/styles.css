@@ -288,7 +288,7 @@ footer{
    }
 
    #projects h1{
-       font-size:30px;
+       font-size:40px;
    }
 
    .website-project{
@@ -296,7 +296,7 @@ footer{
    }
 
    .website-project img{
-
+    width:300px;
    }
 
    /*SKILLS*/
