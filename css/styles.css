@@ -344,31 +344,45 @@ styles for screens with a maximum of 749px or lesser
        width:400px;
        display:flex;
        flex-direction: column;
-       margin-right: 600px;
+       margin-right: 0px;
+       margin-left:0px;
        padding-right:10px;
    }
-
+   #skills ul{
+       width:200px;
+   }
    #skills h2 li{
        margin-right:500px;
    }
 
    #skills li{
        margin-bottom:10px;
-       
    }
 
    /*ABOUT*/
 
    #about-victoria .content-wrapper{
     width:300px;
-    margin-left:100px;
+    margin-left:30px;
+    margin-right:400px;
     display:flex;
     flex-direction: column;
    }
 
    #about-victoria img{
        padding-top: 20px;
-       width:275px;
+       margin-left:100px;
+       width:100px;
+   }
+
+   #about-victoria h1{
+       font-size:25px;
+   }
+   #about-victoria h2{
+    font-size:20px;
+}
+   #about-victoria p {
+    font-size:15px;
    }
 
    /*CONTACT*/
