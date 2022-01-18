@@ -133,6 +133,7 @@ header h2{
 #skills{
     background-color: #2d2327;
     color:white;
+    
 }
 
 #skills h1{
@@ -218,6 +219,9 @@ footer{
     float:left;
 }
 
+
+
+
 /***************************************************
          TABLET STYLES
 /****************************************************
@@ -228,11 +232,12 @@ styles for screens up to 1280px
 
     #skills{       
         padding-bottom:100px;
+        
     }
 
     #skills ul li {
         margin:20px;
-        margin-left:120px;
+        margin-left:100px;
     }
 
     footer h1, h3, p{
@@ -256,21 +261,20 @@ styles for screens 750px or greater
     ****************/
     .website-project{overflow:hidden;}
 
+
     #projects .content-wrapper{
         width: 2500px;
         
-    }
-    
+    }    
     /*images will float left and two columns will be formed when screen is 750px or greater*/
     .website-project img {
         float:left;
         margin-right:10px;
         }
-    #projects p{
+   
         
-        }
 
-      /***********************
+     /******************
               CONTACT
       ************************/
 /*list items will stack on top of each other when the screen is smaller than 750px
@@ -305,39 +309,23 @@ styles for screens with a maximum of 500px or lesser
         margin-right:300px;
     }
 
-    header h2{
-        font-size:15px;
-        margin-right: 150px;
-    }
+    header h2{ font-size:15px;  margin-right: 150px;}
 
-    header h1 {
-        font-size:35px;   
-        margin-right:450px;            
-    }
-    
+    header h1 {font-size:35px;   margin-right:450px;}
+       
     /*PROJECT*/
+   #projects .content-wrapper{margin-left: 20px; margin-right:40px;}  
 
-   #projects .content-wrapper{
-       margin-left: 25px;
-   }  
+   #projects a{padding:10px;}
 
-   #projects a{
-    padding:10px;
-   }
+   .divider > section{padding-bottom: 60px;}
 
-   .divider > section{
-       padding-bottom: 60px;
+   #projects h1{font-size:40px;}
+   #projects p {font-size:15px;}
 
-   }
 
-   #projects h1{
-       font-size:40px;
-   }
-
-   .website-project img{
-    width:300px;
-   }
-
+   .website-project img{width:300px;}
+    
    /*SKILLS*/
    #skills h1{
        font-size:40px;
@@ -358,6 +346,7 @@ styles for screens with a maximum of 500px or lesser
        margin-right: 0px;
        margin-left:0px;
        padding-right:10px;
+       padding-bottom:10px;
    }
    #skills ul{
        width:200px;
