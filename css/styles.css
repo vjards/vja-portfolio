@@ -297,7 +297,7 @@ styles for screens with a maximum of 768px or lesser
     header{width:700px; height:400px; padding-bottom:20px;}
 
     header .content-wrapper{
-        margin-left: 100px;
+        margin-left: 50px;
     }
       
     header li{
@@ -307,20 +307,18 @@ styles for screens with a maximum of 768px or lesser
 
     header h2{
         font-size:15px;
-        margin-right: 100px;
+        margin-right: 150px;
     }
 
     header h1 {
         font-size:35px;   
-        margin-right:300px;            
+        margin-right:450px;            
     }
     
     /*PROJECT*/
 
    #projects .content-wrapper{
-       margin-left:25px;
-       margin-top: 40px;
-       margin-right: 20px;
+       margin-left: 25px;
    }  
 
    #projects a{
