@@ -226,6 +226,15 @@ styles for screens up to 1280px
 
 @media screen  and (min-width:768px){
 
+    #skills{       
+        padding-bottom:100px;
+    }
+
+    #skills ul li {
+        margin:20px;
+        margin-left:120px;
+    }
+
     footer h1, h3, p{
         display:flex;
         justify-content: center;
@@ -328,8 +337,8 @@ styles for screens with a maximum of 768px or lesser
    /*background*/ 
    #skills{
        width:670px;
-       height:700px;
-       padding-top: 20px;
+       height:500px;
+       
    }
 
    /*skill section content layout*/
