@@ -315,8 +315,9 @@ styles for screens with a maximum of 768px or lesser
     /*PROJECT*/
 
    #projects .content-wrapper{
-       margin-left:50px;
+       margin-left:25px;
        margin-top: 40px;
+       margin-right: 20px;
    }  
 
    #projects a{
