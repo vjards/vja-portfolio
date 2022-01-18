@@ -246,7 +246,6 @@ styles for screens up to 1280px
 /****************************************************
 styles for screens 750px or greater
 ********************************************************/
-
 @media screen and (min-width:750px){
     /*GLOBAL STYLES*/
     header footer{text-align:center;}
@@ -256,13 +255,20 @@ styles for screens 750px or greater
         PROJECT
     ****************/
     .website-project{overflow:hidden;}
+
+    #projects .content-wrapper{
+        width: 2500px;
+        
+    }
     
     /*images will float left and two columns will be formed when screen is 750px or greater*/
     .website-project img {
         float:left;
-        margin-right:40px;
+        margin-right:10px;
         }
-
+    #projects p{
+        
+        }
 
       /***********************
               CONTACT
@@ -275,6 +281,7 @@ styles for screens 750px or greater
     } 
     
 }
+
 
 /*******************************************************
                   MOBILE STYLES
