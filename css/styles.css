@@ -77,7 +77,7 @@ li a{
           PROFILE
 ****************************/
 header{background-color:#2d2327; color:white;
-        padding:20px;
+        padding:10px;
 }
 
 header h1{
@@ -88,6 +88,7 @@ header h1{
 header h2{
     font-size: 30px;
     font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
 
 /********************************
@@ -298,11 +299,10 @@ styles for screens with a maximum of 500px or lesser
     .content-wrapper{width:300px;  padding: 0 0 0 0px;}
 
     /*HEADER*/
-    header{width:700px; height:400px; padding-bottom:20px;}
+    header{width:700px; height:300px; padding-bottom:20px;}
 
-    header .content-wrapper{
-        margin-left: 50px;
-    }
+    header .content-wrapper{ margin-left: 0px; width:500px;}       
+    
       
     header li{
         font-size:15px;
@@ -311,7 +311,7 @@ styles for screens with a maximum of 500px or lesser
 
     header h2{ font-size:15px;  margin-right: 150px;}
 
-    header h1 {font-size:35px;   margin-right:450px;}
+    header h1 {font-size:35px;   text-align:center; margin-right:450px;}
        
     /*PROJECT*/
    #projects .content-wrapper{margin-left: 20px; margin-right:40px;}  
@@ -322,9 +322,9 @@ styles for screens with a maximum of 500px or lesser
 
    #projects h1{font-size:40px;}
    #projects p {font-size:15px;}
+   
 
-
-   .website-project img{width:300px;}
+   .website-project img{width:200px;}
     
    /*SKILLS*/
    #skills h1{
@@ -371,9 +371,9 @@ styles for screens with a maximum of 500px or lesser
 
    #about-victoria img{
        padding-top: 20px;
-       margin-left:100px;
+       margin-left:70px;
        margin-bottom: 20px;
-       width:100px;
+       width:200px;
    }
 
    #about-victoria h1{
